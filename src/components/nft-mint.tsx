@@ -90,7 +90,7 @@ export function NftMint(props: Props) {
 								}
 							/>
 						)}
-						<div className="absolute top-2 right-2 bg-gradient-purple text-primary-foreground px-3 py-1.5 rounded-full text-sm font-semibold backdrop-blur-sm shadow-lg">
+						<div className="absolute top-2 right-2 bg-gradient-blue text-primary-foreground px-3 py-1.5 rounded-full text-sm font-semibold backdrop-blur-sm shadow-lg">
 							{props.pricePerToken} {props.currencySymbol}/each
 						</div>
 					</div>
@@ -162,12 +162,12 @@ export function NftMint(props: Props) {
 										}
 							}
 							style={{
-								background: "linear-gradient(135deg, hsl(270, 50%, 60%) 0%, hsl(280, 65%, 55%) 100%)",
+								background: "linear-gradient(135deg, hsl(220, 50%, 60%) 0%, hsl(210, 65%, 55%) 100%)",
 								color: "white",
 								width: "100%",
 								borderRadius: "0.5rem",
 								fontWeight: "600",
-								boxShadow: "0 4px 14px 0 rgba(139, 92, 246, 0.3)",
+								boxShadow: "0 4px 14px 0 rgba(59, 130, 246, 0.3)",
 							}}
 							disabled={isMinting}
 							onTransactionSent={() => toast.info("Minting NFT")}
